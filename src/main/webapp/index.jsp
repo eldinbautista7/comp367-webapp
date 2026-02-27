@@ -1,4 +1,5 @@
 <%@ page import="java.util.Calendar" %>
+<!-- Tiny commit to trigger Jenkins auto-build -->
 <%
     Calendar cal = Calendar.getInstance();
     int hour = cal.get(Calendar.HOUR_OF_DAY);
